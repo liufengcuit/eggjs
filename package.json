@@ -1,0 +1,22 @@
+{
+  "name": "eggjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop",
+    "dev": "egg-bin dev --port 7001"
+  },
+  "author": "liufeng",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.23.0",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.11.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.0"
+  }
+}

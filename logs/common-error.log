@@ -1,0 +1,25 @@
+2019-09-23 11:21:30,339 ERROR 10048 [-/127.0.0.1/-/7ms GET /userInfo] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (H:\nodejs\eggjs\node_modules\_egg@2.23.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (H:\nodejs\eggjs\node_modules\_egg@2.23.0@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (H:\nodejs\eggjs\node_modules\_egg-security@2.6.1@egg-security\app\extend\context.js:87:33)
+    at Object.ensureCsrfSecret (H:\nodejs\eggjs\node_modules\_egg-security@2.6.1@egg-security\app\extend\context.js:98:13)
+    at csrf (H:\nodejs\eggjs\node_modules\_egg-security@2.6.1@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (H:\nodejs\eggjs\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at H:\nodejs\eggjs\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (H:\nodejs\eggjs\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (H:\nodejs\eggjs\node_modules\_koa-session@5.12.3@koa-session\index.js:41:13)
+    at dispatch (H:\nodejs\eggjs\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10048
+hostname: USERUQI-2018072801
+
+2019-09-23 11:31:09,062 ERROR 10032 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10032
+hostname: USERUQI-2018072801
+
